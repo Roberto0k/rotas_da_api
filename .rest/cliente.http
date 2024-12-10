@@ -1,0 +1,17 @@
+GET http://localhost:3000/tarefas
+
+GET http://localhost:3000/tarefas/1
+
+POST http://localhost:3000/tarefas
+Corpo:
+{
+  "descricao": "Aprender Express"
+}
+
+PUT http://localhost:3000/tarefas/1
+Corpo:
+{
+  "descricao": "Estudar Express"
+}
+
+DELETE http://localhost:3000/tarefas/1
